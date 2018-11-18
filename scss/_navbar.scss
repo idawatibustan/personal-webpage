@@ -1,0 +1,28 @@
+.navbar {
+  font-size: .8em;
+  .navbar-brand {
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  .navbar-toggler {
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+  .nav-item {
+    text-align: center;
+    margin: 0 .5em;
+    &:hover {
+      .nav-link {
+        color: $primary-color;
+      }
+    }
+  }
+  @media (max-width: 576px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
+}

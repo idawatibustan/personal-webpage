@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'navbar';
+@import 'masthead';
+@import 'footer';
+
+body {
+  font-family: $font-stack;
+  letter-spacing: 0.3em;
+}
+
+.container {
+  max-width: 1000px;
+  h4 {
+    font-weight: 200;
+  }
+  i {
+    font-weight: 100;
+  }
+}
